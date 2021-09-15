@@ -8,5 +8,6 @@ let btn = document.getElementById('btn');
 
 window.addEventListener('scroll', ()=>{
     let value = window.scrollY;
-    stars.style.left = value + "px";
+    stars.style.left = value*0.5 + "px";
+    moon.style.top = value + "px";
 })
