@@ -6,4 +6,7 @@ let text = document.getElementById('text');
 let btn = document.getElementById('btn');
 
 
-
+window.addEventListener('scroll', ()=>{
+    let value = window.scrollY;
+    stars.style.left = value + "px";
+})
