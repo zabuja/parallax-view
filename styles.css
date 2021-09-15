@@ -98,11 +98,12 @@ section img#moon{
 }
 
 section img#mountains_front{
-  z-index: 99;
+  z-index: 10;
 }
 
 #text{
   position: absolute;
+  right: -350px;
   color: #fff;
   white-space: nowrap;
   font-size: 7.5vw;
